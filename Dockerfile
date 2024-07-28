@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 python:3.9
+FROM arm64v8/python:3.9-slim-bullseye
 # FROM --platform=linux/amd64 python:3.9
 ENV TZ=Asia/Shanghai
 ARG DEBIAN_FRONTEND=noninteractive
